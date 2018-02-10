@@ -1,0 +1,164 @@
+.md-form-width {
+  width: 400px;
+  margin: 100px auto;
+  -webkit-box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.md-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.md-form form {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.md-form .md-form-head {
+  text-align: left;
+  text-indent: 30px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid rgba(46, 45, 45, 0.3);
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fdfdfd;
+  text-shadow: 2px 2px 4px rgba(2, 91, 255, 0.863);
+}
+
+.md-form .md-form-head h4:hover {
+  -webkit-transform: translate(4px);
+  -ms-transform: translate(4px);
+  transform: translate(4px);
+}
+
+.md-form .md-form-middle {
+  position: relative;
+  padding-top: 20px;
+}
+
+.md-form .md-form-middle .error-wrap {
+  padding: 10px;
+  margin-left: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.md-form .md-form-middle .error-wrap .error {
+  font-size: 12px;
+  color: #d31723;
+  visibility: hidden;
+  display: block;
+  line-height: 16px;
+  height: 16px;
+  text-align: left;
+  background: url("/static/icon.png") 0 -100px no-repeat;
+}
+
+.md-form .md-form-middle .error-wrap .error-show {
+  visibility: visible;
+  height: auto;
+}
+
+.md-form .md-form-middle .log-form-input {
+  position: relative;
+}
+
+.md-form .md-form-middle .log-form-input .icon {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 25px;
+  height: 29px;
+  margin: 6px 0 0 14px;
+  background-image: url("/static/icon.png");
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+.md-form .md-form-middle .log-form-input .icon-user {
+  left: 45px;
+  background-position: 6px 3px;
+}
+
+.md-form .md-form-middle .log-form-input .icon-password {
+  left: 45px;
+  background-position: -195px 3px;
+}
+
+.md-form .md-form-footer {
+  font-size: 12px;
+  float: right;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+
+.md-form .md-form-footer a {
+  color: blue;
+}
+
+.md-form .md-form-footer a:hover {
+  color: red;
+}
+
+.md-form input, .md-form textarea,
+.md-form button[type="button"] {
+  width: 75%;
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px 10px 40px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.md-form input[type="text"]:hover,
+.md-form textarea:hover,
+.md-form input[type="password"]:hover {
+  border: 1px solid #a0aeee;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.md-form button[type="button"] {
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background-color: #4484d8;
+  font-size: 16px;
+  border: 0;
+  color: #eee;
+}
+
+.md-form button[type="button"]:hover {
+  background: #e67171;
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+@media only screen and (max-width: 481px) {
+  .md-form-width {
+    width: 300px;
+    margin: 50px auto 120px;
+    -webkit-box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .md-form .md-form-middle .log-form-input .icon-user,
+  .md-form .md-form-middle .log-form-input .icon-password {
+    left: 35px;
+  }
+}
