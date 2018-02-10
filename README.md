@@ -1,21 +1,21 @@
-# demo2
+# 项目介绍
 
-> A Vue.js project
+> 而我翁人
+> sefef
 
-## Build Setup
+## 线上地址展示
+
+# 代码安装与部署
 
 ``` bash
-# install dependencies
+# 克隆地址
+git clone 
+
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 运行项目
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+``` 
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
